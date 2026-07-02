@@ -1,11 +1,11 @@
 import React from 'react'
 
 type ChildProps = {
-    name:string;
-    age:number;
+    name?:string;
+    age?:number;
 }
 
-function Child({name,age}:ChildProps) {
+function Child({name="adithya",age=22}:ChildProps) {
   return (
     <>
       <h1>Name:{name}</h1>

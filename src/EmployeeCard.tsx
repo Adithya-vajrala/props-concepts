@@ -1,5 +1,7 @@
 import React from 'react'
-
+ type EmployeeCardProps = {
+    
+ }
 
 function EmployeeCard() {
   return (
