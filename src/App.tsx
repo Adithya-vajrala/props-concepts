@@ -3,6 +3,8 @@ import Child from './Child'
 import Addtion from './Addtion'
 import EmployeeCard from './EmployeeCard';
 import EmployeeArray from './EmployeeArray';
+import Blog from './Blog';
+import Timer from './Timer';
 
 function App() {
   const emp = {
@@ -27,11 +29,15 @@ function App() {
       <EmployeeCard emp={emp}></EmployeeCard>
 
       <h1>All Employeee</h1>
+      <ul>
       {
         emplArray.map((empl)=>(
-          <EmployeeArray empl={empl}></EmployeeArray>
+          <li><EmployeeArray empl={empl}></EmployeeArray></li>
         ))
       }
+      </ul>
+      <Blog></Blog>
+      <Timer></Timer>
     </>
   )
 }
