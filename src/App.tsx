@@ -5,6 +5,7 @@ import EmployeeCard from './EmployeeCard';
 import EmployeeArray from './EmployeeArray';
 import Blog from './Blog';
 import Timer from './Timer';
+import CountDoun from './CountDoun';
 
 function App() {
   const emp = {
@@ -36,8 +37,9 @@ function App() {
         ))
       }
       </ul>
-      <Blog></Blog>
-      <Timer></Timer>
+      <Blog />
+      <Timer />
+      <CountDoun />
     </>
   )
 }
